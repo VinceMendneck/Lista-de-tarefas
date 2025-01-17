@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lista de Tarefas</title>
+    <link rel="preconnect" href="http://fonts.googleapis.com">
+    <link rel="preconnect" href="http://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./main.css">
+    <link rel="icon" type="image/x-icon" href="./imagens/logo.png">
+</head>
+
+<body>
+    <header>
+        <img src="./images/logo.png" alt="agenda">
+        <h1>Lista de Tarefas</h1>
+        <button type="button">Nova tarefa +</button>
+    </header>
+    <form>
+        <h2>Inserir nova tarefa</h2>
+        <input type="text" id="tarefa-nova" required placeholder="Nova Tarefa">
+        <button type="submit" id="submit-btn">Adicionar</button>
+        <button type="reset" id="cancel-btn">Cancelar</button>
+        <button type="button" style="display: none;" id="limpar-tarefas">Limpar todas as tarefas</button>
+    </form>
+    <ul id="lista-tarefas">
+        <!-- As tarefas serão adicionadas aqui -->
+    </ul></br></br></br></br></br></br></br>
+    <h2>Como usar?</h2></br></br>
+        <h3>-Clique em "Nova Tarefa" e preencha o campo com uma de suas tarefas (uma de cada vez). </br></br>-Clique em "Adicionar Tarefa" para adicionar o que você escreveu.</br></br>-Pode adicionar quantas tarefas quiser, quando tiver concluído uma tarefa, apenas clique nela para que seja riscada.</br></br>-Caso queira iniciar uma nova lista, ou clique em "Limpar Todas as Tarefas" ou recarregue a página ;)
+        </h3>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="./main.js"></script>
+</body>
+
+</html>
